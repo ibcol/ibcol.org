@@ -697,14 +697,17 @@ section {
 }
 .services .icon-box:hover {
   background: #3AA8C1;
-  border-color: #gray;
+  border-color: gray;
   padding: 70px 20px 90px 20px;
 }
 .services .icon-box:hover .icon {
   background: #fff;
 }
+
+
+
 .services .icon-box:hover .icon i {
-  color: gray;
+  color: #3AA8C1;
 }
 .services .icon-box:hover .icon::before {
   background: gray;
@@ -712,6 +715,8 @@ section {
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
   color: #fff;
 }
+
+
 
 /*--------------------------------------------------------------
 # Cta
