@@ -6,6 +6,26 @@ https://templatemo.com/tm-560-astro-motion
 
 */
 
+.call-to-action {
+    padding: 100px 0;
+    background: url("../img/people-dark.jpg");
+    background-size: cover;
+    color: #fff;
+  }
+  
+  .call-to-action h2 {
+    line-height: 1.5;
+  }
+  
+  .call-to-action p {
+    color: #fff;
+  }
+  
+  .call-to-action .btn-main, .call-to-action .btn-main-sm {
+    margin-top: 20px;
+  }
+
+
 /*
 *
 * ==========================================
