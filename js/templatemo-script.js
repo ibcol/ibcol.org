@@ -1,9 +1,5 @@
 /*
-
-TemplateMo 560 Astro Motion
-
-https://templatemo.com/tm-560-astro-motion
-
+Daniyar Kuzekov
 */
 
 var gallery = undefined;
