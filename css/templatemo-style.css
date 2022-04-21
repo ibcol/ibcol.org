@@ -6,6 +6,13 @@ https://templatemo.com/tm-560-astro-motion
 
 */
 
+table, th, td {
+  border: 1px solid;
+  padding-block: 10px;
+  text-align-last: center;
+  padding:30px;
+}
+
 .call-to-action {
     padding: 100px 0;
     background: url("../img/people-dark.jpg");
