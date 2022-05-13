@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/slick.css" type="text/css" /> 
     <link rel="stylesheet" href="css/templatemo-style.css">
-    <link href="img/logo.png" rel="icon">
-    <link href="img/logo.png" rel="apple-touch-icon">
+    <link href="img/logo-16x16.png" rel="icon">
+    <link href="img/logo-16x16.png" rel="apple-touch-icon">
     <script type="application/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script type="application/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -22,61 +22,67 @@
 
     <!--Navigation Bar Start -->
 </div>
-              <nav class="navbar navbar-expand-lg" id="tm-nav">
-                <a href="index.html" class="logo"><img src="img/logo1.png" alt="" class="navbar-brand"></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-supported-content" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbar-supported-content">
-                    <ul class="navbar-nav mb-2 mb-lg-0">
-                      <li class="nav-item selected">
-                        <a class="nav-link" aria-current="page" href="index.html" data-no="1">Home</a>
-                        
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="about.html" data-no="2">About</a>
-                        
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="hall-of-fame.html" data-no="3">Hall of Fame</a>
-                        
-                        </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="submission.html" data-no="3">Submission</a>
-                        
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="faq.html" data-no="4">FAQ</a>
-                      </li>
-                    </ul>
-                  </div>
-              </nav>
+<nav class="navbar navbar-expand-lg" id="tm-nav">
+    <a href="index.html" class="logo"><img src="img/logo1.png" alt="" class="navbar-brand"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-supported-content" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-supported-content">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item selected">
+            <a class="nav-link" aria-current="page" href="index.html" data-no="1">Home</a>
+          </li>
+  
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="hall-of-fame.html" data-no="3">Hall of Fame</a>
+            </li> -->
+  
+          <li class="nav-item">
+            <a class="nav-link" href="submission.html" data-no="3">Submission</a> 
+          </li>
+  
+          <li class="nav-item">
+            <a class="nav-link" href="faq.html" data-no="4">FAQ</a>
+          </li>
+  
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html" data-no="2">Contact</a>
+        </li>
+  
+        <li style="padding: 0px 30px 0px 30px;">
+          <a href="https://passport.ibcol.org/"><button class="btn-main-sm" class="btn btn-main-sm animated fadeInUp btn-round-full" type="button">REGISTER</button></a>
+        </li>
+  
+        </ul>
+      </div>
+  </nav>
       <!--Navigation Bar End-->
 
 
 
     <!-- Beginning of the Main Content-->
 
-
+    <video autoplay muted loop id="bg-video">
+        <source src="video/net_timelapse.mp4" type="video/mp4">
+    </video>
 
         <!--
 Start Call To Action
 ==================================== -->
-<section class="call-to-action section">
+<section class="slider bg-dark-transparent">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 text-center">
-				<h2>Let's Create Something Together</h2>
-                <p>Join International Blockchain Olympiad and gain experience, <br> from a specialists and compete with people from around the world.</p>
-                <a href=#><button class="glow-on-hover" class="btn btn-main animated fadeInUp btn-round-full" type="button">Join IBCOL</button></a>
+				<h2>Let's Build the future Together</h2>
+                <p>Join the International Blockchain Olympiad and work with other <br> brilliant young and forward thinking individuals from around the world.</p>
+                <a href="https://passport.ibcol.org/"><button class="btn-main-sm" class="btn btn-main-sm animated fadeInUp btn-round-full" type="button">REGISTER</button></a>
 			</div>
-		</div> 		<!-- End row -->
-	</div>   	<!-- End container -->
-</section>   <!-- End section -->
-
+		</div>
+	</div>
+</section>
    
       
-    <section class="about-2 section bg-gray" id="about">
+    <section class="about-2 section bg-dark" id="about">
         <div class="container">
             <div class="row">
                 <hr>
@@ -173,43 +179,36 @@ Start Call To Action
  
 
    <!--Footer-->
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.css" integrity="sha256-NAxhqDvtY0l4xn+YVa6WjAcmd94NNfttjNsDmNatFVc=" crossorigin="anonymous" />
- <footer class="bg-dark py-5">
-     <div class="container">
-         <div class="row justify-content-center">
-             <div class="col-lg-7 mb-3">
-             <div class="text-center"> 
-                     <!-- <ul class="list-unstyled social-icon social mb-0 mt-4">
-                         <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook fea icon-sm fea-social"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a></li>
-                         <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram fea icon-sm fea-social"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a></li>
-                         <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter fea icon-sm fea-social"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a></li>
-                         <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin fea icon-sm fea-social"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a></li>
-                     </ul> -->
-                     <!--end icon-->
-                 </div>
-             </div><!--end col-->
-         </div><!--end row-->
-     </div>
-     <!--end container-->
-     <div class="container">
-      <div class="row text-center">
-          <div class="col-sm-6 footer-bar">
-              <div class="text-sm-left">
-                  <p class="mb-0 footer-text para-desc mx-auto">&copy; 2022 IBCOL.</p>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.css" integrity="sha256-NAxhqDvtY0l4xn+YVa6WjAcmd94NNfttjNsDmNatFVc=" crossorigin="anonymous" />
+   <footer class="bg-dark py-3">
+       <div class="container">
+           <div class="row justify-content-center">
+               <div class="col-lg-7 mb-3">
+               <div class="text-center"> 
+                       <p style="font-size: 14px;">Our operations have been recently disrupted due to the situation in Eastern Europe, the lack of website updates among other things have been a consequence of unpredicted series of events. Please accept our apologies if this has caused you any inconvenience or confusion, we are currently regrouping and should be back to full operations soon! Thanks for understanding.</p>
+                   </div>
+               </div><!--end col-->
+           </div><!--end row-->
+       </div><!--end container-->
+       <div class="container">
+        <div class="row text-center">
+            <div class="col-sm-6 footer-bar">
+                <div class="text-sm-left">
+                    <p class="mb-0 footer-text para-desc mx-auto" style="font-size: 14px;">&copy; 2022 IBCOL</p>
               </div>
           </div><!--end col-->
 
           <div class="col-sm-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
               <ul class="list-unstyled terms-service text-sm-right mb-0">
                   <li class="list-inline-item mb-0"><a href="index.html" class="footer-text mr-2">Home</a></li>
-                  <li class="list-inline-item mb-0"><a href="about.html" class="footer-text mr-2">About</a></li>
-                  <li class="list-inline-item mb-0"><a href="faq.html" class="footer-text mr-2">FAQs</a></li>
+                  <li class="list-inline-item mb-0"><a href="faq.html" class="footer-text mr-2">FAQ</a></li>
+                  <li class="list-inline-item mb-0"><a href="contact.html" class="footer-text mr-2">Contact</a></li>
               </ul>
-          </div><!--end col-->
-      </div><!--end row-->
-  </div><!--end container-->
- </footer>
-<!--Footer End-->
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+   </footer>
+  <!--Footer End-->
 
 
 </div>
