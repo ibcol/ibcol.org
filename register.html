@@ -68,18 +68,37 @@
 
   <!-- Beginning of the Main Content-->
 
-  <section class="section bg-dark" style="height: 100%;">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h1 style=" text-align: center;"> Opening Soon</h1>
+  <section class="section bg-dark">
+    <div class="containerr container" style="overflow-x:auto; display: grid;">
+      <div class="col">
+        <h1 style=" text-align: center;"> Opening Soon</h1>
           <hr>
-          <p style="text-align:center">Registrations haven't opened yet, check back in June</p>
-        </div>
-
-      </div> <!-- End row -->
-    </div> <!-- End container -->
-  </section> <!-- End section -->
+          <p style="text-align:center">We don’t have this yet but please join our mailing list to keep up to date on updates. Don’t worry, we don’t send too many emails!</p>
+        <form action="https://formspree.io/f/xjvlaqpe" method="POST">
+          <!-- Your form here -->
+          <form action="https://formspree.io/f/xwkyjglv" class="extra-padding" method="POST">
+            <div class="form-group">
+                <label for="replyTo"> Your Email address </label>
+                <input type="email" class="form-control" id="replyTo" name="_replyto" ngModel="reply" aria-describedby="emailHelp" placeholder="test@example.com">
+                <small id="emailHelp" class="form-text text-muted"> Your email will not be shared with anyone else. </small>
+            </div>
+            <div class="form-group">
+                <label for="message"> Your message </label>
+                <textarea name="message" style="height:200px" class="form-control" id="message" placeholder="Hey there! I'm contacting you because..."> </textarea>
+            </div>
+            <br>
+            <div class="container">
+              <div class="row">
+                <div class="col text-center">
+            <button class="glow-on-hover" type="submit" class="">Submit</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </form>
+      </div>
+    </div>
+   </section>
 
   <!-- End of the Main Content-->
 
