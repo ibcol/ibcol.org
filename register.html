@@ -66,40 +66,31 @@
 
   <!--Video Background End-->
 
-  <!-- Beginning of the Main Content-->
-
-  <section class="section bg-dark">
-    <div class="containerr container" style="overflow-x:auto; display: grid;">
-      <div class="col">
-        <h1 style=" text-align: center;"> Opening Soon</h1>
-          <hr>
-          <p style="text-align:center">We don’t have this yet but please join our mailing list to keep up to date on updates. Don’t worry, we don’t send too many emails!</p>
-        <form action="https://formspree.io/f/xjvlaqpe" method="POST">
-          <!-- Your form here -->
-          <form action="https://formspree.io/f/xwkyjglv" class="extra-padding" method="POST">
-            <div class="form-group">
-                <label for="replyTo"> Your Email address </label>
-                <input type="email" class="form-control" id="replyTo" name="_replyto" ngModel="reply" aria-describedby="emailHelp" placeholder="test@example.com">
-                <small id="emailHelp" class="form-text text-muted"> Your email will not be shared with anyone else. </small>
-            </div>
-            <div class="form-group">
-                <label for="message"> Your message </label>
-                <textarea name="message" style="height:200px" class="form-control" id="message" placeholder="Hey there! I'm contacting you because..."> </textarea>
-            </div>
-            <br>
+  <div class="section-bgc intro">
+    <div class="intro-slider">
+        <div class="intro-item" style="background-image: url(assets/img/intro-img1.jpg);">
             <div class="container">
-              <div class="row">
-                <div class="col text-center">
-            <button class="glow-on-hover" type="submit" class="">Submit</button>
+                <div class="row">
+                    <div class="col">
+                        <div class="intro-content">
+                            <div class="section-heading shm-none">
+                                <!-- <div class="section-subheading">IBCOL 2022</div> -->
+                                <h1>Register for IBCOL 2022</h1>
+                                <p class="section-desc">International Blockchain Olympiad (IBCOL) is an annual competition inviting current and recent students to propose solutions to real-world problems using blockchain technology</p>
+                            </div>
+                            <div class="wrap-btn intro-btns">
+                                <a href="#" class="btn btn-with-icon btn-small ripple">
+                                    <span>Register</span>
+                                    <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9"><use xlink:href="assets/img/sprite.svg#arrow-right"></use></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </form>
-        </form>
-      </div>
+        </div>
     </div>
-   </section>
-
+</div><!-- End intro -->
   <!-- End of the Main Content-->
 
 
